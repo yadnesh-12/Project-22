@@ -23,7 +23,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	fairy = createSprite(650, 520);
+	fairy = createSprite(130, 520);
 	fairy.addAnimation("fairyflying",fairyImg);  
 	fairy.scale =0.25;
 	
